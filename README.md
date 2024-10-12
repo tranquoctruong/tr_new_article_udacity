@@ -16,6 +16,7 @@ Run the following command in the root directory of the project to install all de
 
 ```bash
 npm install
+```
 
 ### Step 2: Configure API Key
 Create a .env file in the root directory and add your API key from MeaningCloud:
@@ -23,21 +24,25 @@ makefile
 API_KEY=your_meaningcloud_api_key
 
 ### Step 3: Start the server
+```bash
 npm start
+```
 
 ### Step 4: Build and Run the Application
 Development Environment
 Run the following command to build the application in the development environment:
 
-bash
+```bash
 npm run build:dev
+```
 Open your browser and go to http://localhost:9000.
 
 Production Environment
 Run the following command to build the application for the production environment:
 
-bash
+```bash
 npm run build:prod
+```
 
 
 ### Dependencies
