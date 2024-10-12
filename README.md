@@ -47,12 +47,15 @@ npm run build:prod
 
 
 ### Dependencies
-Express
-Axios
-Webpack
-Sass
-Babel
-MeaningCloud API
-References
-Webpack Documentation
-MeaningCloud Documentation
+
+- [Express](https://expressjs.com/)
+- [Axios](https://axios-http.com/)
+- [Webpack](https://webpack.js.org/)
+- [Sass](https://sass-lang.com/)
+- [Babel](https://babeljs.io/)
+- [MeaningCloud API](https://www.meaningcloud.com/developer)
+
+### References
+
+- [Webpack Documentation](https://webpack.js.org/concepts/)
+- [MeaningCloud Documentation](https://www.meaningcloud.com/developer/documentation)
