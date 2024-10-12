@@ -20,18 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
 // handle the submit
 async function handleSubmit(e) {
     e.preventDefault();
-    debugger
     const form = document.querySelector("form");
 
-    if (!isValid(input.value)) {
+    if (input == null || !isValid(input.value)) {
         show_error();
         document.getElementById("error").innerHTML = "Please, Enter a valid URL";
-        input.value = "";
         return;
     }
     loading(true);
     const data = await fetchSentimentAnalysis(input.value);
-    debugger
     display_results(data);
 }
 

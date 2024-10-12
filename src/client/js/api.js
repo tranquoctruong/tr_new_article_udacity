@@ -1,5 +1,4 @@
 export const fetchSentimentAnalysis = async (text) => {
-    debugger
     const response = await fetch('/analyze', {
         method: 'POST',
         headers: {
@@ -11,6 +10,6 @@ export const fetchSentimentAnalysis = async (text) => {
     if (!response.ok) {
         throw new Error('Failed to fetch sentiment analysis');
     }
-    debugger
+    
     return await response.json();
 };
