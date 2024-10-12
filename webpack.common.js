@@ -7,7 +7,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    library: 'Client',
+    clean: true
   },
   module: {
     rules: [

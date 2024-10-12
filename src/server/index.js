@@ -20,9 +20,11 @@ app.post('/analyze', async (req, res) => {
                 txt: text,
                 lang: 'en',
             },
-        });
+        })
+        debugger
         res.send(response.data);
     } catch (error) {
+        console.log(error);
         res.status(500).send(error);
     }
 });

@@ -1,0 +1,13 @@
+.header {
+    background-color: #4A90E2; /* Màu nền */
+    color: white; /* Màu chữ */
+    text-align: center; /* Canh giữa */
+    padding: 50px 20px; /* Khoảng cách bên trong */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}
+
+.header-content h1 {
+    font-size: 28px; /* Kích thước chữ */
+    margin: 0; /* Xóa khoảng cách mặc định */
+    letter-spacing: 1px; /* Khoảng cách giữa các chữ cái */
+}

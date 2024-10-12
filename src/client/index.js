@@ -1,2 +1,6 @@
-import("./styles/style.scss")
-import("./js/app.js")
+import("./styles/main.scss")
+
+import { handleSubmit } from "./js/handleSubmit"
+
+
+export { handleSubmit }
