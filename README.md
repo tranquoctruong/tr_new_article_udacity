@@ -59,3 +59,6 @@ npm run build:prod
 
 - [Webpack Documentation](https://webpack.js.org/concepts/)
 - [MeaningCloud Documentation](https://www.meaningcloud.com/developer/documentation)
+
+### Creator:
+Tran Quoc Truong
