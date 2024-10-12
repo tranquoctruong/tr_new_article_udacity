@@ -20,8 +20,9 @@ npm install
 
 ### Step 2: Configure API Key
 Create a .env file in the root directory and add your API key from MeaningCloud:
-makefile
+```makefile
 API_KEY=your_meaningcloud_api_key
+```
 
 ### Step 3: Start the server
 ```bash
