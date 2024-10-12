@@ -24,19 +24,13 @@ Create a .env file in the root directory and add your API key from MeaningCloud:
 API_KEY=your_meaningcloud_api_key
 ```
 
-### Step 3: Start the server
-```bash
-npm start
-```
-
-### Step 4: Build and Run the Application
+### Step 3: Build and Run the Application
 Development Environment
 Run the following command to build the application in the development environment:
 
 ```bash
 npm run build:dev
 ```
-Open your browser and go to http://localhost:9000.
 
 Production Environment
 Run the following command to build the application for the production environment:
@@ -44,7 +38,11 @@ Run the following command to build the application for the production environmen
 ```bash
 npm run build:prod
 ```
-
+### Step 4: Start the server
+```bash
+npm start
+```
+Open your browser and go to http://localhost:8080.
 
 ### Dependencies
 
